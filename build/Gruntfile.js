@@ -68,6 +68,7 @@ module.exports = function (grunt) {
 							linkNatives: true,
 							attributesEmit: true,
 							selleck: true,
+
 							helpers: ["../build/path.js"],
 							themedir: "../build/createjsTheme/"
 						}

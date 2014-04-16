@@ -76,15 +76,14 @@ this.createjs = this.createjs||{};
 	*/
 
 	/**
-	 * Finds the first occurrence of a specified value searchElement in the passed in array, and returns the index of
-	 * that value.  Returns -1 if value is not found.
+	 * 找到数组中的第一个匹配项并返回其索引。如果没有匹配项，返回 -1.
 	 *
 	 *      var i = createjs.indexOf(myArray, myElementToFind);
 	 *
 	 * @method indexOf
-	 * @param {Array} array Array to search for searchElement
-	 * @param searchElement Element to find in array.
-	 * @return {Number} The first index of searchElement in array.
+	 * @param {Array} array 目标数组。
+	 * @param searchElement 目标匹配项。
+	 * @return {Number} 第一个匹配项的索引值。
 	 */
 	createjs.indexOf = function (array, searchElement){
 		for (var i = 0,l=array.length; i < l; i++) {
